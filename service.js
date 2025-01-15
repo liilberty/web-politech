@@ -2,7 +2,7 @@ import popup from './popup.js';
 
 class Api {
     constructor() {
-        this.key = 'e69fbe1d-3d77-40c8-8f97-4dea13746819';
+        this.key = 'f71152f5-7ac1-44ba-bf6f-411deba3bc1e';
         // url не используется, настроен редирект на стороне хоста
         this.url = 'https://edu.std-900.ist.mospolytech.ru';
     }
