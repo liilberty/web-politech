@@ -2,21 +2,21 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    border: 1px solid #d72323;
+    border: 1px solid #2344d7;
     border-radius: 7px;
     padding: 15px;
     height: 380px;
 }
 
 .card__title {
-    width: 100%; /* Ширина блока */
-    line-height: 20px; /* Высота строки */
+    width: 100%; 
+    line-height: 20px; 
     height: 80px;
-    overflow: hidden; /* Скрытие текста, выходящего за границы */
-    display: -webkit-box; /* Использование flex-контейнера */
-    -webkit-line-clamp: 4; /* Количество строк до обрезания */
-    -webkit-box-orient: vertical; /* Вертикальная ориентация */
-    text-overflow: ellipsis; /* Добавление троеточия */
+    overflow: hidden; 
+    display: -webkit-box; 
+    -webkit-line-clamp: 4; 
+    -webkit-box-orient: vertical; 
+    text-overflow: ellipsis; 
 }
 
 .card__picture {
@@ -53,7 +53,7 @@
 
 .card__pice-old {
     position: relative;
-    color: #d72323;
+    color: #2344d7;
     padding: 0 5px;
 }
 
@@ -62,13 +62,13 @@
     content: '';
     width: 100%;
     height: 2px;
-    background-color: #d72323;
+    background-color: #2344d7;
     top: 49%;
     left: -2.5px;
 }
 
 .card__pice-discount {
-    color: #d72323;
+    color: #2344d7;
 }
 
 .card__rating {
@@ -94,7 +94,7 @@
 }
 
 .card__rating-star_active {
-    color: #e4c200;
+    color: #e0e400;
 }
 
 .card__rating-star svg {
@@ -150,13 +150,13 @@
 .cart__form-item input, .cart__form-item select {
     padding: 10px 15px;
     border-radius: 7px;
-    border: 1px solid #d72323;
+    border: 1px solid #2344d7;
     font-size: 18px;
 }
 
 .cart__form-item textarea {
     border-radius: 7px;
-    border: 1px solid #d72323;
+    border: 1px solid #2344d7;
     padding: 10px 15px;
     min-height: 90px;
 }
@@ -280,9 +280,9 @@
     width: 100%;
     background-color: aquamarine;
     padding: 0.5rem 1.5rem;
-    top: -50px; /* Если -50, то блок скрыт, если 0 - виден */
+    top: -50px; 
     left: 0;
-    transition: top 0.5s ease; /* Плавный переход для top */
+    transition: top 0.5s ease; 
 }
 
 .main__popup > svg {
@@ -321,7 +321,7 @@
 }
 
 .sidebar__list-item:hover {
-    background-color: #d7232348;
+    background-color: #2344d754;
 }
 
 .sidebar__list-item > input, .sidebar__list-item > label {
@@ -354,7 +354,7 @@
 .catalog-sort {
     padding: 0.2rem 0.5rem;
     border-radius: 3px;
-    border: 1px solid #d72323;
+    border: 1px solid #2344d7;
 }
 
 .catalog__list {
@@ -406,7 +406,7 @@
 }
 
 .input-wrapper input:focus {
-    border-color: #d72323;
+    border-color: #2344d7;
 }
 
 /* числовой ввод диапазона цены */
@@ -523,7 +523,7 @@
         padding: 0.5rem;
         background: rgb(255, 255, 255);
         border-radius: 7px;
-        border: 1px solid #d72323;
+        border: 1px solid #2344d7;
         z-index: 5;
     }
 
@@ -582,7 +582,7 @@
 .btn {
     width: fit-content;
     padding: 0.3rem 2rem;
-    background-color: #d72323;
+    background-color: #2344d7;
     border-radius: 7px;
     color: white;
     cursor: pointer;
@@ -615,7 +615,7 @@
 
 .header__input {
     padding: 0.5rem;
-    border: 1px solid #d72323;
+    border: 1px solid #2344d7;
     border-radius: 7px;
     width: 20vw;
 }
@@ -624,8 +624,8 @@
     padding: 0.3rem 1.5rem;
     margin-left: 7px;
     border-radius: 7px;
-    background-color: #d72323;
-    border: 1px solid #d72323;
+    background-color: #2344d7;
+    border: 1px solid #2344d7;
     color: white;
     font-size: 18px;
     cursor: pointer;
@@ -656,13 +656,13 @@
 .header__btn {
     display: block;
     border-radius: 7px;
-    border: 1px solid #d72323;
+    border: 1px solid #2344d7;
     color: black;
     cursor: pointer;
 }
 
 .header__btn:hover {
-    background-color: #d72323;
+    background-color: #2344d7;
     color: #fff;
 }
 
@@ -687,17 +687,17 @@
 }
 
 .orders__head h4 {
-    border: 1px solid #35d723;
+    border: 1px solid #2344d7;
     padding: 1rem;
     border-left: none;
 }
 
 .orders__head:nth-child(1) {
-    border-left: 1px solid #38d723;
+    border-left: 1px solid #2344d7;
 }
 
 .orders__list-item {
-    border-bottom: 1px solid #23d744;
+    border-bottom: 1px solid #2344d7;
 }
 
 .orders__list-item > div {
@@ -756,7 +756,7 @@
     transition: opacity 0.3s ease;
 }
 
-/* Контент модального окна */
+
 .modal-content {
     background: #fff;
     padding: 20px;
@@ -767,7 +767,7 @@
     position: relative;
 }
 
-/* Кнопка закрытия */
+
 .close-btn {
     position: absolute;
     top: 10px;
@@ -776,7 +776,7 @@
     cursor: pointer;
 }
 
-/* Скрытие окна */
+
 .hidden {
     display: none;
     opacity: 0;
@@ -827,17 +827,17 @@
     text-overflow: ellipsis; /* Добавление троеточия в конце */
 }
 
-/* скрываю поля ввода если модалка для просмотра */
+
 .modal__field_text input, .modal__field_text select, .modal__field_text textarea {
     display: none;
 }
 
-/* скрываю текстовые поля */
+
 .modal__field_inputs p {
     display: none;
 }
 
-/* отображаю текстовые поля если модалка для просмотра */
+
 .modal__field_text p {
 display: block;
 }
@@ -889,7 +889,7 @@ display: block;
     }
 
     .orders__list-item {
-        border: 1px solid #d72323;
+        border: 1px solid #2344d7;
         display: flex;
         flex-direction: column;
         width: 70vw;
