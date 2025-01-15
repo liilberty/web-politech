@@ -51,7 +51,7 @@ class Cart {
                 formData.delete('mailing');
             }
             const [year, month, day] = formData.get('delivery_date').split('-'); // Разбиваем строку на части
-            const formattedDate = `${day}.${month}.${year}`; // Формируем строку в формате dd.mm.yyyy
+            const formattedDate = `${day}.${month}.${year}`; 
             formData.delete('delivery_date');
             formData.append('delivery_date', formattedDate);            
             formData.append('good_ids', this.productIdList.map(Number));
